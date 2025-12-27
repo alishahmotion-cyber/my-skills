@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+/* header*/
+
+:root{
+    --blue: #3A68B8;
+    --white: #FFFFFF;
+    --opacity: #ffffffae;
+    --black: #000000;
+
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    background-color: #ffffff;
+}
+
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 0 20px; 
+   
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    height: 100px;  
+}
+
+.navbar{
+    display: flex;
+    gap: 304px;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav a{
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: var(--black);
+}
+
+
+/* header */
+
+/* design */
+
+.hero {
+  display: flex;
+  align-items: center;     
+  justify-content: center; 
+  gap: 60px;               
+  padding: 80px 100px;
+}
+
+.hero-image img {
+  max-width: 450px;
+  width: 100%;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.btn {
+  color: white;
+  background-color: var(--blue);
+    padding: 12px 24px;
+}
+
+/* design */
+
+/* cards */
+
+section#card{
+    
+    background-color: var(--blue);
+    padding: 80px 0;
+}
+
+.card{
+    
+    color: var(--white);
+}
+
+.img-project img{
+    max-width: 70px;
+  width: 100%;
+}
+
+
+/* cards */
+
+
+
+
+
+@media (max-width: 1024px) {
+    .navbar{
+        gap: 100px;
+    }
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column; 
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 640px) {
+    .navbar{
+        gap: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar{
+        gap: 100px;
+    }
+}
+
